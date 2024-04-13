@@ -221,7 +221,7 @@ lib.composeManyExtensions [
 
       ansible-lint = super.ansible-lint.overridePythonAttrs (
         old: {
-          buildInputs = (old.buildInputs or [ ]) ++ [ self.setuptools-scm-git-archive ];
+          buildInputs = (old.buildInputs or [ ]) ++ [ self.setuptools-scm ];
           preBuild = ''
             export HOME=$(mktemp -d)
           '';
@@ -559,6 +559,7 @@ lib.composeManyExtensions [
             "42.0.1" = "sha256-Kq/TSoI1cm9Pwg5CulNlAADmxdq0oWbgymHeMErUtcE=";
             "42.0.2" = "sha256-jw/FC5rQO77h6omtBp0Nc2oitkVbNElbkBUduyprTIc=";
             "42.0.3" = "sha256-QBZLGXdQz2WIBlAJM+yBk1QgmfF4b3G0Y1I5lZmAmtU=";
+            "42.0.5" = "sha256-Pw3ftpcDMfZr/w6US5fnnyPVsFSB9+BuIKazDocYjTU=";
           }.${version} or (
             lib.warn "Unknown cryptography version: '${version}'. Please update getCargoHash." lib.fakeHash
           );
@@ -1172,7 +1173,7 @@ lib.composeManyExtensions [
             self.pytestrunner
             self.cryptography
             self.pyjwt
-            self.setuptools-scm-git-archive
+            self.setuptools-scm
           ];
         }
       );
@@ -1486,8 +1487,6 @@ lib.composeManyExtensions [
             pkg-config
           ] ++ lib.optionals (lib.versionAtLeast super.matplotlib.version "3.5.0") [
             self.setuptools-scm
-          ] ++ lib.optionals (lib.versionOlder super.matplotlib.version "3.6.0") [
-            self.setuptools-scm-git-archive
           ];
 
           # Clang doesn't understand -fno-strict-overflow, and matplotlib builds with -Werror
@@ -1558,11 +1557,11 @@ lib.composeManyExtensions [
                   excludes = [ "pyproject.toml" ];
                 })
               ];
-              buildInputs = (old.buildInputs or [ ]) ++ [ self.setuptools self.setuptools-scm self.setuptools-scm-git-archive ];
+              buildInputs = (old.buildInputs or [ ]) ++ [ self.setuptools self.setuptools-scm];
             }
           )) else
           super.molecule.overridePythonAttrs (old: {
-            buildInputs = (old.buildInputs or [ ]) ++ [ self.setuptools self.setuptools-scm self.setuptools-scm-git-archive ];
+            buildInputs = (old.buildInputs or [ ]) ++ [ self.setuptools self.setuptools-scm ];
           });
 
       msgpack = super.msgpack.overridePythonAttrs (
@@ -3391,7 +3390,7 @@ lib.composeManyExtensions [
         old: {
           inherit (pkgs.python3.pkgs.vispy) patches;
           nativeBuildInputs = (old.nativeBuildInputs or [ ]) ++ [
-            self.setuptools-scm-git-archive
+            self.setuptools-scm
           ];
         }
       );
@@ -3678,7 +3677,7 @@ lib.composeManyExtensions [
       });
 
       selinux = super.selinux.overridePythonAttrs (old: {
-        buildInputs = (old.buildInputs or [ ]) ++ [ self.setuptools-scm-git-archive ];
+        buildInputs = (old.buildInputs or [ ]) ++ [ self.setuptools-scm ];
       });
 
       setuptools-scm = super.setuptools-scm.overridePythonAttrs (_old: {
