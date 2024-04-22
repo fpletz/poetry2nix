@@ -1,4 +1,4 @@
-{ lib, poetry2nix, python3, pkgs, runCommand }:
+{ lib, poetry2nix, python3, runCommand }:
 let
   wheelImports = {
     bokeh = "bokeh";

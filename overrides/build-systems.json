@@ -7093,7 +7093,7 @@
   "github3-py": [
     "setuptools"
   ],
-  "gitlab-lint" : [
+  "gitlab-lint": [
     "poetry"
   ],
   "gitlike-commands": [
@@ -22319,6 +22319,9 @@
   "xxhash": [
     "setuptools",
     "setuptools-scm"
+  ],
+  "xyzservices": [
+    "setuptools"
   ],
   "yabadaba": [
     "setuptools"
