@@ -7093,11 +7093,11 @@
   "github3-py": [
     "setuptools"
   ],
-  "gitlike-commands": [
-    "poetry-core"
-  ],
   "gitlab-lint" : [
     "poetry"
+  ],
+  "gitlike-commands": [
+    "poetry-core"
   ],
   "gitlint": [
     {
