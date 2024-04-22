@@ -2508,7 +2508,7 @@
     "setuptools"
   ],
   "blis": [
-    "cython",
+    "cython_0",
     "setuptools"
   ],
   "block-io": [
@@ -2965,7 +2965,7 @@
     "poetry"
   ],
   "cassandra-driver": [
-    "cython",
+    "cython_0",
     "setuptools"
   ],
   "castepxbin": [
@@ -4085,7 +4085,7 @@
     "setuptools"
   ],
   "daqp": [
-    "cython",
+    "cython_0",
     "setuptools"
   ],
   "darglint": [
@@ -5339,7 +5339,7 @@
     "poetry-core"
   ],
   "dtlssocket": [
-    "cython",
+    "cython_0",
     "setuptools"
   ],
   "dtw-python": [
@@ -6749,7 +6749,7 @@
     "setuptools"
   ],
   "fugashi": [
-    "cython",
+    "cython_0",
     "setuptools-scm"
   ],
   "func-timeout": [
@@ -6852,7 +6852,7 @@
     "setuptools"
   ],
   "gbinder-python": [
-    "cython",
+    "cython_0",
     "setuptools"
   ],
   "gbulb": [
@@ -7664,11 +7664,11 @@
     "setuptools-scm"
   ],
   "h5py": [
-    "cython",
+    "cython_0",
     "setuptools"
   ],
   "h5py-mpi": [
-    "cython",
+    "cython_0",
     "setuptools"
   ],
   "ha-ffmpeg": [
@@ -7843,7 +7843,7 @@
     "setuptools"
   ],
   "hidapi": [
-    "cython",
+    "cython_0",
     "setuptools"
   ],
   "hieroglyph": [
@@ -9369,7 +9369,7 @@
     "setuptools"
   ],
   "kivy": [
-    "cython",
+    "cython_0",
     "setuptools"
   ],
   "kivy-garden": [
@@ -9620,7 +9620,7 @@
     "setuptools-scm"
   ],
   "libgpuarray": [
-    "cython",
+    "cython_0",
     "setuptools"
   ],
   "libiio": [
@@ -11921,7 +11921,7 @@
     "setuptools"
   ],
   "openstep-plist": [
-    "cython",
+    "cython_0",
     "setuptools",
     "setuptools-scm"
   ],
@@ -13656,7 +13656,7 @@
     "setuptools"
   ],
   "py-libzfs": [
-    "cython"
+    "cython_0"
   ],
   "py-lru-cache": [
     "setuptools"
@@ -13800,7 +13800,7 @@
     "setuptools"
   ],
   "pyarrow": [
-    "cython",
+    "cython_0",
     "setuptools",
     "setuptools-scm"
   ],
@@ -14074,7 +14074,7 @@
   ],
   "pydantic": [
     {
-      "buildSystem": "cython",
+      "buildSystem": "cython_0",
       "until": "2.0.0"
     },
     {
@@ -14334,7 +14334,7 @@
     "setuptools"
   ],
   "pyfftw": [
-    "cython",
+    "cython_0",
     "setuptools"
   ],
   "pyfibaro": [
@@ -14421,7 +14421,7 @@
     "setuptools"
   ],
   "pygame-sdl2": [
-    "cython",
+    "cython_0",
     "setuptools"
   ],
   "pygatt": [
@@ -14437,7 +14437,7 @@
     "setuptools"
   ],
   "pygeos": [
-    "cython",
+    "cython_0",
     "setuptools"
   ],
   "pygetwindow": [
@@ -14754,7 +14754,7 @@
     "cython"
   ],
   "pyliblo": [
-    "cython",
+    "cython_0",
     "setuptools"
   ],
   "pylibmc": [
@@ -15457,7 +15457,7 @@
     "setuptools"
   ],
   "pyrevolve": [
-    "cython",
+    "cython_0",
     "setuptools"
   ],
   "pyrfc3339": [
@@ -16703,7 +16703,7 @@
     "setuptools"
   ],
   "python-openems": [
-    "cython",
+    "cython_0",
     "setuptools"
   ],
   "python-opensky": [
@@ -17271,7 +17271,7 @@
     "setuptools"
   ],
   "pyyaml": [
-    "cython",
+    "cython_0",
     "setuptools"
   ],
   "pyyaml-env-tag": [
@@ -17480,7 +17480,7 @@
     "setuptools"
   ],
   "qutip": [
-    "cython",
+    "cython_0",
     "setuptools"
   ],
   "r2pipe": [
@@ -18135,7 +18135,7 @@
     "setuptools"
   ],
   "rtmidi-python": [
-    "cython",
+    "cython_0",
     "setuptools"
   ],
   "rtmixer": [
@@ -18705,7 +18705,7 @@
     "setuptools"
   ],
   "sfepy": [
-    "cython",
+    "cython_0",
     "setuptools"
   ],
   "sfrbox-api": [
@@ -18732,7 +18732,7 @@
     "setuptools"
   ],
   "shapely": [
-    "cython",
+    "cython_0",
     "oldest-supported-numpy",
     "setuptools"
   ],
@@ -19550,7 +19550,7 @@
     "setuptools"
   ],
   "srsly": [
-    "cython",
+    "cython_0",
     "setuptools"
   ],
   "srt": [
@@ -20343,7 +20343,7 @@
     "setuptools"
   ],
   "thinc": [
-    "cython",
+    "cython_0",
     "setuptools"
   ],
   "thorlabspm100": [
@@ -21178,7 +21178,7 @@
     "setuptools"
   ],
   "uamqp": [
-    "cython",
+    "cython_0",
     "setuptools"
   ],
   "uarray": [
@@ -21483,7 +21483,7 @@
     "setuptools"
   ],
   "uvloop": [
-    "cython",
+    "cython_0",
     "setuptools"
   ],
   "uwsgidecorators": [
