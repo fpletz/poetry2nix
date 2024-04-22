@@ -5223,7 +5223,14 @@
     "setuptools"
   ],
   "docutils": [
-    "setuptools"
+    {
+      "buildSystem": "setuptools",
+      "until": "0.21"
+    },
+    {
+      "buildSystem": "flit-core",
+      "from": "0.21"
+    }
   ],
   "docx2python": [
     "poetry-core",
@@ -8692,7 +8699,14 @@
     "setuptools-scm"
   ],
   "itsdangerous": [
-    "setuptools"
+    {
+      "buildSystem": "setuptools",
+      "until": "2.2.0"
+    },
+    {
+      "buildSystem": "flit-core",
+      "from": "2.2.0"
+    }
   ],
   "itunespy": [
     "setuptools"
@@ -18732,8 +18746,7 @@
     "setuptools"
   ],
   "shapely": [
-    "cython_0",
-    "oldest-supported-numpy",
+    "cython",
     "setuptools"
   ],
   "sharedmem": [

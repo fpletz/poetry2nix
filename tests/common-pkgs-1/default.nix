@@ -1,7 +1,6 @@
-{ lib, poetry2nix, python39 }:
+{ lib, poetry2nix }:
 
 poetry2nix.mkPoetryApplication {
-  python = python39;
   pyproject = ./pyproject.toml;
   poetrylock = ./poetry.lock;
   src = lib.cleanSource ./.;
