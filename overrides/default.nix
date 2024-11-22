@@ -2021,6 +2021,7 @@ lib.composeManyExtensions [
         old: lib.optionalAttrs (!(old.src.isWheel or false)) (
           let
             githubHash = {
+              "3.10.11" = "sha256-RJcTyLf2pLb1kHd7+5K9dGMWja4KFdKIwdRAp6Ud+Ps=";
               "3.10.7" = "sha256-+ofDblSbaG8CjRXFfF0QFpq2yGmLF/2yILqk2m8PSl8=";
               "3.10.6" = "sha256-K3wCzwaGOsaiCm2LW4Oc4XOnp6agrdTxCxqEIMq0fuU=";
               "3.10.5" = "sha256-Q2zi3mNgCFrg7Ucana0+lmR9C9kkuUidEJj8GneR2W4=";
@@ -2054,6 +2055,7 @@ lib.composeManyExtensions [
             };
 
             cargoHash = {
+              "3.10.11" = "sha256-HlvsV3Bsxa4Ud1+RrEnDWKX82DRyfgBS7GvK9827/wE=";
               "3.10.7" = "sha256-MACmdptHmnifBTfB5s+CY6npAOFIrh0zvrIImYghGsw=";
               "3.10.6" = "sha256-SNdwqb47dJ084TMNsm2Btks1UCDerjSmSrQQUiGbx50=";
               "3.10.5" = "sha256-yhLKw4BhdIHgcu4iVlXQlHk/8J+3NK6LlmSWbm/5y4Q=";
